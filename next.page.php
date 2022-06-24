@@ -8,13 +8,13 @@
 </head>
 <body>
 <?php
-    session_start ();
+    session_start();
     echo"<html>";
 
-    $myLogin = $_SESSION ["mylogin"];
+    $myLogin = $_SESSION["mylogin"];
     echo "Value of myLogin has been retrieved: ".$myLogin."\n";
 
-    $myColor = $_SESSION ["myColor"];
+    $myColor = $_SESSION["myColor"];
     echo "Value of MyColor has been retrieved: ".$myColor."\n";
 
     echo "</html>\n";
