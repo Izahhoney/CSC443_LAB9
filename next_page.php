@@ -29,7 +29,7 @@
    echo "Session ID returned by sid: ".$sid."\n";
 
    $myLogin = $_SESSION["myLogin"];
-   print("Value of my Login has been retrieved: ".$myLogin."\n";)
+   print ("Value of myLogin has been retrieved: ".$myLogin."\n";)
    $myColor = $_SESSION["myColor"];
    echo "Value of myColor has been retrieved: ".$myColor."\n";
 
