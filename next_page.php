@@ -24,14 +24,14 @@
    echo "<html>";
 
    $sid = session_id();
-   echo "Session ID returned by session_id(): ".$sid."\n";
+   echo "Session ID returned by session_id(): ".$sid."\n </br>";
    $sid = SID;
    echo "Session ID returned by sid: ".$sid."\n";
 
    $myLogin = $_SESSION["myLogin"];
-   print ("Value of myLogin has been retrieved: ".$myLogin."\n";)
+   print ("Value of myLogin has been retrieved: ".$myLogin."\n </br>");
    $myColor = $_SESSION["myColor"];
-   echo "Value of myColor has been retrieved: ".$myColor."\n";
+   echo "Value of myColor has been retrieved: ".$myColor."\n  </br>";
 
    echo "</html>\n";
    ?>
