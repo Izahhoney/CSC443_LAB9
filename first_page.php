@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    session start ();
+    session_start ();
     echo"<html>";
     $SESSION ["mylogin"] = "myWebsite";
     echo "A value saved in the session named as myLogin.<br>";
