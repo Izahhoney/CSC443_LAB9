@@ -34,8 +34,8 @@ foreach ($_COOKIE as $name => $value)
     echo "$name = $value\n";
 }
 
-   $myLogin = $_SESSION["myLogin \n <br>"];
-   print ("Value of myLogin has been retrieved: ".$myLogin."\n </br>");
+   $myLogin = $_SESSION["myLogin"];
+   print ("\n<br> Value of myLogin has been retrieved: ".$myLogin."\n </br>");
    $myColor = $_SESSION["myColor"];
    echo "Value of myColor has been retrieved: ".$myColor."\n  </br>";
 
