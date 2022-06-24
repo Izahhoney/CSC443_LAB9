@@ -32,7 +32,7 @@
    {
     print "$name = $value\n";
    }
-   print ("\n";)
+   print ("\n");
 
    ?> 
     
