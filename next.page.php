@@ -11,11 +11,11 @@
     session_start ();
     echo"<html>";
 
-    $myLogin = $SESSION ["mylogin"];
+    $myLogin = $_SESSION ["mylogin"];
     echo "Value of myLogin has been retrieved: ".$myLogin."\n";
 
-    $myColor = $SESSION ["myColor"];
-    echo "Value of myColor has been retrieved: ".$myColor."\n";
+    $myColor = $_SESSION ["myColor"];
+    echo "Value of MyColor has been retrieved: ".$myColor."\n";
 
     echo "</html>\n";
     
