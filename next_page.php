@@ -9,8 +9,8 @@
 <body>
     <?php
 //question 2//
-    //session_start();
-    //echo "<html>";
+    session_start();
+    echo "<html>";
 
     //$myLogin = $_SESSION["myLogin"];
    // echo "Value of myLogin has been retrieved: ".$myLogin."\n";
@@ -20,13 +20,19 @@
 
    // echo "</html>\n";
 
-   session_start();
-   echo "<html>";
+  // $sid = session_id();
+  // echo "Session ID returned by session_id(): ".$sid."\n </br>";
+  // $sid = SID;
+  // echo "Session ID returned by sid: ".$sid."\n";
 
-   $sid = session_id();
-   echo "Session ID returned by session_id(): ".$sid."\n </br>";
-   $sid = SID;
-   echo "Session ID returned by sid: ".$sid."\n";
+$queryString = $_SERVER["QUERY_STRING";]
+echo "Query string of the incoming URL: ".$queryString."\n";
+
+echo "Cookies received:\n";
+foreach ($_COOKIE as $name => $value) 
+{
+    echo "$name = $value\n";
+}
 
    $myLogin = $_SESSION["myLogin"];
    print ("Value of myLogin has been retrieved: ".$myLogin."\n </br>");
