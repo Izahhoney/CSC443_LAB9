@@ -25,7 +25,7 @@
   // $sid = SID;
   // echo "Session ID returned by sid: ".$sid."\n";
 
-$queryString = $_SERVER["QUERY_STRING";]
+$queryString = $_SERVER["QUERY_STRING"];
 echo "Query string of the incoming URL: ".$queryString."\n";
 
 echo "Cookies received:\n";
