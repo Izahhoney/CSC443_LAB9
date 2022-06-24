@@ -20,7 +20,7 @@ foreach ($_COOKIE as $name => $value)
     print "$name = $value\n";
 }
 
-print("</pre>n");
+print("</pre>\n");
 
  ?>
     
