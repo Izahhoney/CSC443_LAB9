@@ -10,13 +10,13 @@
     <?php
     session_start ();
     echo"<html>";
-    $SESSION ["mylogin"] = "myWebsite";
+    $_SESSION ["mylogin"] = "myWebsite";
     echo "A value saved in the session named as myLogin.<br>";
 
-    $SESSION ["myColor"] = "Blue";
+    $_SESSION ["myColor"] = "Blue";
     echo "A value saved in the session named as myColor.<br>";
 
-    echo "Click <a href=next.page.php>Next Page</a"
+    echo "Click <a href=next_page.php>Next Page</a"
         ." to retrieve the value.<br>";
     echo "</html><br>";
     
