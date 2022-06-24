@@ -7,17 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-            session_start();
-            echo "<html>";
+    <?php
 
-            $myLogin = $_SESSION["myLogin"];
-            echo "Value of MyLogin has been retrieved: " .$myLogin."\n </br>";
+    session_start();
+    echo "<html>";
 
-            $myColor = $_SESSION["myColor"];
-            echo "Value of MyColor has been retrieved: ".$myColor."\n";
+    $myLogin = $_SESSION["myLogin"];
+    echo "Value of myLogin has been retrieved: ".$myLogin."\n";
 
-            echo "</html>\n";
+    $myColor = $_SESSION["myColor"];
+    echo "Value of MyColor has been retrieved: ".$myColor."\n";
+
+    echo "</html>\n";
+
     ?>
     
 </body>
